@@ -1,0 +1,33 @@
+In conda prompt, most important command is 'conda --help', 'conda xxx --help'
+# Adjust words that in a square bracket, suit your situation.
+# this symbol $ meaning command line
+# In the conda prompt, (base) : base is your environment when you face first. after change the env, you will meet other env.
+
+
+
+
+Make new conda env("environment")
+$ conda create -n [ENV_NAME]
+
+delete your specific conda env 
+$ conda remove  -n [ENV_NAME]
+
+Change your conda env
+$ conda activate [ENV_NAME] 
+
+package managing
+# pip is package installer for python. 
+# you can install new package using the pip command
+# ref : https://pypi.org/
+
+'pip --help'
+
+I recommand package install process
+1. find python package or googling package name in pyPI.
+$ pip search [PACKAGE_NAME]
+2. install python package 
+$ pip install [PACKAGE_NAME]
+#cause, similar package is existed. Module name is different between script and piPI frequently.
+
+$ pip uninstall [PACKAGE_NAME]
+# delete package in your conda env.
